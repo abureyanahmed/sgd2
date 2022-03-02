@@ -15,6 +15,8 @@ Installation of Python 3 depends on specific OS. Please refer to [https://www.py
     pip install numpy scipy sklearn pynndescent
     pip install tqdm networkx natsort
     pip install matplotlib
+    
+We have used MacOS with an Intel chip. If you are using an M1 chip, then note that `llvmlite` currently cannot be installed using `pip install llvmlite` under Silicon Mac (arm64). (ref: https://github.com/numba/llvmlite/issues/693). In that case, you can install it using conda. (ref: https://anaconda.org/conda-forge/pynndescent).
 
 
 ## Download code base
